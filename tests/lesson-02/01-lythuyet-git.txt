@@ -1,0 +1,4 @@
+git init //khởi tạo repo local
+git add <file_name> //add file này từ vùng working directory vào staging để sẵn sàng commit
+git add . // add tất cả các file có thay đổi vào staging
+git commit - m "message" //commit file kèm theo message

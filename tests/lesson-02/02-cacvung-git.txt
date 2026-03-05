@@ -1,0 +1,26 @@
+a. Tạo 3 file: file1, file2, file3
+Tại local: có 3 file
+
+b. Chạy lệnh: git init
+Tại working directory: có 3 file
+Tại staging: trống
+Tại repo: trống
+
+c. Chạy lệnh: git commit -m”init project”
+=> báo lỗi vì chưa chạy lệnh git add
+
+d. Chạy lệnh: git add file1
+=> add file 1 vào staging
+working directory: file 2, file 3
+repo: trống
+
+e. Chạy lệnh: git commit -m”add file1”
+working directory: file 2, file 3
+staging: trống
+repo: file 1
+
+f. Chạy lệnh: git commit -m”add file”
+=> báo lỗi
+cuối cùng working directory: file 2, file 3
+staging: trống
+repo: file 1
