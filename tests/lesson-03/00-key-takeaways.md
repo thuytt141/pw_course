@@ -27,7 +27,7 @@
 - git push orgin <tên nhánh>
 ### Xoá nhánh trên online (remote)
 - git push -D origin <tên nhánh>
-## JavaScript
+## 2. JavaScript
 ### Điều kiện if
 if (<điều kiện>) {
 // code...
