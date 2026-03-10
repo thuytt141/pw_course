@@ -36,3 +36,65 @@ if (<điều kiện>) {
 for (<điều kiện khởi tạo>; <điều kiện lặp>; <cập nhật>) {
 // code
 }
+--- 
+
+# Lesson 04
+## 1. Object
+
+### Cách khai báo object
+Cú pháp:
+
+{} hoặc new Object ()
+
+Ví dụ: let obj = { a : 1}
+
+### Truy xuất 
+.key hoặc ["key]
+
+Ví dụ: obj.a hoặc obj["a]
+### Thêm sửa
+obj.key = value
+
+Ví dụ obj.b = 2
+### Xoá
+delete obj.key
+
+Ví dụ: delete obj.a
+### Lồng nhau
+value là object
+
+Ví dụ: obj.x.y.z
+
+## 2. Array
+### Khai báo
+Cú pháp:  []
+
+Ví dụ: let arr = [1, 2, 3]
+### Truy xuất
+Cú pháp: arr[index]
+
+Ví dụ: arr[0] → 1
+
+### Đếm phần tử
+Cú pháp: arr.length
+### Thêm cuối
+Cú pháp: arr.push(value)
+
+Ví dụ: arr.push(4)
+
+### Xoá cuối
+Cú pháp: arr.pop()
+
+## 3. Function
+### Khai báo: Tạo hàm, chưa chạy
+Cú pháp: function tenHam ()
+{ ... }
+
+### Gọi hàm: chạy code bên trong
+Cú pháp: tenHam ()
+
+### Tham số: Truyền vào data
+Cú pháp: function tenHam (a, b) { ... }
+
+### Trả kết quả: gửi kết quả về nơi gọi
+Cú pháp: return giaTriTraVe
